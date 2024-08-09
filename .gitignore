@@ -13,3 +13,5 @@
 /am-kernels
 /fceux-am
 /nvboard
+.sv_cache/files/
+.sv_cache/
