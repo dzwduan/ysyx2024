@@ -35,6 +35,9 @@ function init() {
 
   if [ $5 ] ; then
     addenv $5 $3
+    echo "By default this script will add environment variables into ~/.bashrc."
+    echo "After that, please run 'source ~/.bashrc' to let these variables take effect."
+    echo "If you use shell other than bash, please add these environment variables manually."
   fi
 }
 
